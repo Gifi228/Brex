@@ -771,11 +771,52 @@ body{
 
 @media (max-width:415px) {
     .header__box-rightbtn{
-        padding: 10px 17px;
-
+        padding: 7px 13px;
+        font-size: 12px;
     }
     .header__nav-contact{
-        padding: 10px 17px;
+        padding: 7px 13px;
+        font-size: 12px;
     }
-    
+    .header__box-desc::before, .header__box-desc::after{
+        width: 230px;
+    }
+    .section__solution-left{
+        max-width: 300px;
+        width: 100%;
+        
+    }
+    .section__left-phone{
+        width: 400px;
+        position: absolute;
+        top: 423px;
+        left: -50px;
+    }
+
+    .section__solution-right{
+        max-width: 300px;
+        width: 100%;
+    }
+    .section__right-cart{
+        width: 400px;
+        position: absolute;
+        left: -50px;
+        top: 350px;
+    }
+
+    .section__flexible-title{
+        font-size: 15px;
+    }
+    .section__flexible-text{
+        font-size: 12px;
+    }
+    .swiper-text{
+        font-size: 15px;
+    }
+    .section__customer-name{
+        font-size: 20px;
+    }
+    .section__customer-title{
+        font-size: 18px;
+    }
 }
