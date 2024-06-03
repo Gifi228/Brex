@@ -766,3 +766,16 @@ body{
     }
     
 }
+
+
+
+@media (max-width:415px) {
+    .header__box-rightbtn{
+        padding: 10px 17px;
+
+    }
+    .header__nav-contact{
+        padding: 10px 17px;
+    }
+    
+}
