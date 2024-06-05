@@ -610,6 +610,9 @@ body{
         display: flex;
         padding: 9px;
     }
+    .header__nav-image{
+        margin-right: 0;
+    }
 }
 
 
